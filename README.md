@@ -2,7 +2,8 @@
 
 # Space Shooter Game
 
-![Game Screenshot](path_to_screenshot.png)
+![Game Screenshot]![image](https://github.com/user-attachments/assets/ec06591a-e2a9-454d-a93c-afb13d2f7dda)
+
 
 ## Opis projektu
 
