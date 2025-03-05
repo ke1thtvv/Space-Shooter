@@ -5,45 +5,43 @@
 ![Game Screenshot]![image](https://github.com/user-attachments/assets/ec06591a-e2a9-454d-a93c-afb13d2f7dda)
 
 
-## Opis projektu
+## Project Description
 
-**Space Shooter** to dynamiczna gra zręcznościowa napisana w C#, zbudowana na silniku Unity, 
-w której wcielasz się w pilota statku kosmicznego walczącego z rosnącą liczbą meteorytów. 
-Gra wykorzystuje **programowanie obiektowe** oraz wzorce projektowe takie jak
-**Singleton**, **Decorator** czy **Abstract Factory**.
+**Space Shooter** is a dynamic arcade game written in C# and built using the Unity engine. 
+In this game, you take on the role of a spaceship pilot fighting against an increasing 
+number of meteors. The game utilizes **object-oriented programming** and design patterns 
+such as **Singleton**, **Decorator**, and **Abstract Factory**.
 
-Celem gry jest zdobycie jak największej liczby punktów poprzez niszczenie meteorytów. 
-Im dłużej trwa rozgrywka, tym więcej punktów zdobywasz, a dodatkowo niektóre meteoryty 
-mogą zapewnić czasowe ulepszenia dla statku.
+The goal is to score as many points as possible by destroying meteors. The longer you play, 
+the more points you earn. Additionally, some meteors may drop temporary upgrades for the spaceship.
 
-## Sterowanie
 
-- **Strzałka w lewo**: Przesunięcie statku w lewo.
-- **Strzałka w prawo**: Przesunięcie statku w prawo.
-- **Spacja**: Strzał z działka statku.
+## Controls
+- **Left Arrow**: Move the spaceship left.
+- **Right Arrow**: Move the spaceship right.
+- **Spacebar**: Fire the spaceship's cannon.
 
-## Mechanika gry
+## Game mechanics
 
-- **Punkty**:
-  - Zniszczenie meteorytu daje określoną liczbę punktów, zależną od jego rodzaju.
-  - Dłuższa gra skutkuje zwiększaniem poziomu trudności i większą liczbą punktów za każdy zniszczony meteoryt.
+- **Scoring**:
+  - Destroying a meteor grants a certain number of points, depending on its type.
+  - The difficulty level increases over time, awarding more points for each destroyed meteor.
   
-- **Rodzaje meteorytów**:
-  - Każdy rodzaj meteorytu różni się rozmiarem, wytrzymałością oraz punktami, które można za niego zdobyć.
-  - Meteoryty mogą upuszczać **ulepszenia** po zniszczeniu, np.:
-    - Większa prędkość statku
-    - Permanentny mnożnik ataku
-    - Tarcza ochronna
-    - Regeneracja zdrowia
+- **Meteo Types**:
+  - Different meteors vary in size, durability, and the points they provide when destroyed.
+  - Some meteors may drop power-ups, such as:
+    - Increased spaceship speed
+    - Permanent attack multiplier
+    - Protective shield
+    - Health regeneration
 
-## Technologie
+## Technologies
 
 Projekt został zbudowany przy użyciu:
 
-- **Języka**: C#
-- **Silnik gry**: Unity (jeśli Unity jest używane, w przeciwnym razie można pominąć)
-- **Wzorce projektowe**:
-- **Wzorce projektowe**:
-  - **Singleton**: Zapewnia, że niektóre komponenty gry, np. zarządzanie punktami czy zarządzanie dźwiękiem, istnieją jako pojedyncze instancje przez cały czas trwania gry.
-  - **Decorator**: Stosowany do dynamicznego dodawania ulepszeń statku kosmicznego.
-  - **Abstract Factory**: Wykorzystywany do tworzenia różnych rodzajów meteorytów i ich właściwości.
+- **Programming Language**: C#
+- **Game Engine**: Unity (jeśli Unity jest używane, w przeciwnym razie można pominąć)
+- **Design Patterns**:
+  - **Singleton**: Manages components like score tracking and sound management
+  - **Decorator**: Used for dynamically adding spaceship upgrades
+  - **Abstract Factory**: Handles the creation of different meteor types and their properties
