@@ -1,6 +1,6 @@
 # Space Shooter - Unity Game Project
 
-![Game Screenshot]![image](https://github.com/user-attachments/assets/ec06591a-e2a9-454d-a93c-afb13d2f7dda)
+![image](https://github.com/user-attachments/assets/ec06591a-e2a9-454d-a93c-afb13d2f7dda)
 
 ## Overview
 Space Shooter is an engaging 2D arcade-style shooter built in Unity, featuring dynamic gameplay, enemy waves, power-ups, and smooth parallax effects. This project demonstrates expertise in Unity development, object-oriented programming (OOP), and game architecture.
