@@ -1,47 +1,42 @@
 # Space-Shooter
 
-# Space Shooter Game
+# Space Shooter - Unity Game Project
 
 ![Game Screenshot]![image](https://github.com/user-attachments/assets/ec06591a-e2a9-454d-a93c-afb13d2f7dda)
 
 
-## Project Description
+## Overview
+Space Shooter is an engaging 2D arcade-style shooter built in Unity, featuring dynamic gameplay, enemy waves, power-ups, and smooth parallax effects. This project demonstrates expertise in Unity development, object-oriented programming (OOP), and game architecture.
 
-**Space Shooter** is a dynamic arcade game written in C# and built using the Unity engine. 
-In this game, you take on the role of a spaceship pilot fighting against an increasing 
-number of meteors. The game utilizes **object-oriented programming** and design patterns 
-such as **Singleton**, **Decorator**, and **Abstract Factory**.
+## Features
+- **Player Mechanics**: Responsive spaceship movement, shooting mechanics, and health management.
+- **Enemy AI**: Procedurally spawned meteors with varying behaviors and damage levels.
+- **Upgrades & Power-ups**: Speed boosts, armor, weapon enhancements, and repair kits.
+- **Game Management**: Singleton-based GameManager for handling scene transitions and game logic.
+- **UI & Effects**: Animated health bars, score tracking, and parallax background for depth.
 
-The goal is to score as many points as possible by destroying meteors. The longer you play, 
-the more points you earn. Additionally, some meteors may drop temporary upgrades for the spaceship.
+## Technologies Used
+- **Unity Engine** (Physics, Sprite Management, UI)
+- **C#** (OOP, Scriptable Objects, Events & Delegates)
+- **Singleton & Factory Patterns** (Efficient object spawning)
+- **Particle Effects** (Explosion & destruction animations)
+- **Scene Management** (Menu, gameplay, and game-over screens)
 
+## Code Structure
+- `GameManager.cs` - Controls game states, speed scaling, and scene transitions.
+- `Spaceship.cs` - Handles player movement, shooting mechanics, and health system.
+- `MeteorBig.cs` - Enemy behavior and health management.
+- `Upgrade.cs` - Abstract class for power-ups, promoting modular design.
+- `UpgradeSpawner.cs` - Randomized power-up generation.
 
-## Controls
-- **Left Arrow**: Move the spaceship left.
-- **Right Arrow**: Move the spaceship right.
-- **Spacebar**: Fire the spaceship's cannon.
+## Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/space-shooter.git
+   ```
+2. Open the project in **Unity 2021+**.
+3. Run the `Space Shooter` scene from the Unity Editor.
 
-## Game mechanics
+## Contact & Contributions
+For any queries or contributions, please create an issue or submit a pull request.
 
-- **Scoring**:
-  - Destroying a meteor grants a certain number of points, depending on its type.
-  - The difficulty level increases over time, awarding more points for each destroyed meteor.
-  
-- **Meteo Types**:
-  - Different meteors vary in size, durability, and the points they provide when destroyed.
-  - Some meteors may drop power-ups, such as:
-    - Increased spaceship speed
-    - Permanent attack multiplier
-    - Protective shield
-    - Health regeneration
-
-## Technologies
-
-Projekt został zbudowany przy użyciu:
-
-- **Programming Language**: C#
-- **Game Engine**: Unity (jeśli Unity jest używane, w przeciwnym razie można pominąć)
-- **Design Patterns**:
-  - **Singleton**: Manages components like score tracking and sound management
-  - **Decorator**: Used for dynamically adding spaceship upgrades
-  - **Abstract Factory**: Handles the creation of different meteor types and their properties
